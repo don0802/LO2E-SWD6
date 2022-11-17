@@ -1,0 +1,49 @@
+* {
+    list-style: none;
+    text-decoration: none;
+}
+
+html {
+    background-color: rgb(255, 255, 255);
+}
+
+/* #2664EC BLAUW/
+/ #0F172B GRIJS */
+
+nav {
+    display: flex;
+    gap: 20px;
+    font-family: museo-sans, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+
+}
+
+nav > li {
+    list-style: none;
+    margin-top: 3%;
+}
+
+nav > li > a {
+    color: black;
+}
+
+nav > li:nth-child(7) {
+    border-style: solid;
+    background-color: #2664EC;
+    border-radius: 35%;
+    border-color: #2664EC;
+    margin-left: 600px;
+}
+
+.white {
+    color: white;
+}
+
+/* header > nav > li > a:nth-child(7) {
+    color: white;
+} */
+
+/* nav > li:nth-child(7) {
+    color: white
+} */
