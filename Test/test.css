@@ -4,6 +4,8 @@
 
 .Slides {
     display: none;
+    height: 400px;
+    width: 600px;
 }
 
 .w3-left, .w3-right, .w3-badge {
